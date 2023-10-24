@@ -1,0 +1,17 @@
+div {
+  background-color: aqua;
+}
+
+#logo-img {
+  height: 50px;
+}
+
+.navigation-menu ul{
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation-menu ul {
+    display: none;
+  }
+}
